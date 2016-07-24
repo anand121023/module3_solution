@@ -1,0 +1,72 @@
+body {
+	font-size: 16px;
+	color: #FFF;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.navbar-brand a{
+	font-family: 'Lora', serif;
+	color: #666;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #333;
+	font-size: 34px;
+}
+
+.bg-yellow {
+	background-color: #CCC;
+}
+
+.menu-btn {
+	border:1px solid #000 !important;
+}
+
+.menu-btn span{
+	background-color: #000 !important;
+}
+
+.menu-btn:hover, .menu-btn:focus {
+	border:1px solid #FFF !important;
+	background-color: #CCC !important;
+}
+
+.menu-btn:hover > span, .menu-btn:focus > span{
+	background-color: #FFF !important;
+}
+
+.bg-yellow a:hover, .bg-yellow a:focus {
+	text-decoration: none;
+	background-color: #FFFFFF !important;
+}
+
+h2.content-heading {
+	color: #333;
+	margin: 0;
+	margin-bottom: 18px;
+}
+
+div.para-contents {
+	background-color: #CCC;
+	padding: 15px;
+	margin-bottom: 45px;
+}
+
+/********** Extra small devices only **********/
+@media (min-width: 768px) {
+	.contents-padding-left-right{ padding: 0px 30px; }
+}
+
+
+@media (max-width: 767px) {
+	.contents-padding-left-right{ padding: 0px 60px; }
+}
+
+@media (min-width: 480px) {
+	
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+}

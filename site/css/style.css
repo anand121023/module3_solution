@@ -4,6 +4,10 @@ body {
 	font-family: 'Oxygen', sans-serif;
 }
 
+.container {
+	width: 100%;
+}
+
 .navbar-brand a{
 	font-family: 'Lora', serif;
 	color: #666;
@@ -15,6 +19,8 @@ body {
 
 .bg-yellow {
 	background-color: #CCC;
+	border-radius: 0;
+	border: 0;
 }
 
 .menu-btn {
@@ -39,27 +45,30 @@ body {
 	background-color: #FFFFFF !important;
 }
 
-h2.content-heading {
-	color: #333;
-	margin: 0;
-	margin-bottom: 18px;
+.text-center {
+	color: #000;
+}
+
+.heading {
+	text-align: center;
+	margin-top: 0px;
 }
 
 div.para-contents {
 	background-color: #CCC;
-	padding: 15px;
+	padding: 0px 15px 15px 15px;
 	margin-bottom: 45px;
 }
 
 /********** Extra small devices only **********/
 @media (min-width: 768px) {
-	.contents-padding-left-right{ padding: 0px 30px; }
+	
 }
 
 
 @media (max-width: 767px) {
-	.contents-padding-left-right{ padding: 0px 60px; }
-}
+	.contents-padding-left-right{ padding: 0px 30px; }
+
 
 @media (min-width: 480px) {
 	
